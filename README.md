@@ -1,2 +1,3 @@
 # BeginnerProjectsSolutions
 Java: Solutions for https://github.com/jorgegonzalez/beginner-projects
+<br><b>Note</b>: work in progress...
