@@ -49,7 +49,6 @@ public class RockPaperScisscors {
 	}
 
 	private static void rock(String comp, String player, JLabel lbl, JLabel scoreC, JLabel scoreP) {
-		setScore(scoreC, scoreP);
 		if (comp.equals("rock")) {
 			if (player.equals("paper")) {
 				lbl.setText("You won!");
@@ -62,7 +61,6 @@ public class RockPaperScisscors {
 	}
 
 	private static void paper(String comp, String player, JLabel lbl, JLabel scoreC, JLabel scoreP) {
-		setScore(scoreC, scoreP);
 		if (comp.equals("paper")) {
 			if (player.equals("scisscors")) {
 				lbl.setText("You won!");
@@ -75,7 +73,6 @@ public class RockPaperScisscors {
 	}
 
 	private static void scisscors(String comp, String player, JLabel lbl, JLabel scoreC, JLabel scoreP) {
-		setScore(scoreC, scoreP);
 		if (comp.equals("scisscors")) {
 			if (player.equals("rock")) {
 				lbl.setText("You won!");
@@ -88,9 +85,9 @@ public class RockPaperScisscors {
 	}
 
 	private static void equality(String comp, String player, JLabel lbl, JLabel scoreC, JLabel scoreP) {
+		setScore(scoreC, scoreP);
 		if (comp.equals(player)) {
 			lbl.setText("Tie!");
-			setScore(scoreC, scoreP);
 		} else {
 			rock(comp, player, lbl, scoreC, scoreP);
 			paper(comp, player, lbl, scoreC, scoreP);
@@ -101,7 +98,7 @@ public class RockPaperScisscors {
 	private static void addComponentsToPane(Container pane) {
 
 		JButton rock, paper, scisscors, reset, quit;
-		JLabel label, lblPlayer, lblComp, lblResultP, lblResulC, player, comp, lblScore, lblText;
+		JLabel label, lblPlayer, lblComp, lblResultP, lblResultC, player, comp, lblScore, lblText;
 
 		GridBagLayout gridBag = new GridBagLayout();
 		pane.setLayout(gridBag);
@@ -162,16 +159,16 @@ public class RockPaperScisscors {
 		gridBag.setConstraints(lblResultP, gbc);
 		pane.add(lblResultP);
 
-		lblResulC = new JLabel();
-		lblResulC.setHorizontalAlignment(JLabel.CENTER);
-		lblResulC.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 18));
+		lblResultC = new JLabel();
+		lblResultC.setHorizontalAlignment(JLabel.CENTER);
+		lblResultC.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 18));
 		gbc.ipady = 0;
 		gbc.weightx = 2;
 		gbc.gridwidth = 1;
 		gbc.gridx = 2;
 		gbc.gridy = 6;
-		gridBag.setConstraints(lblResulC, gbc);
-		pane.add(lblResulC);
+		gridBag.setConstraints(lblResultC, gbc);
+		pane.add(lblResultC);
 
 		rock = new JButton("rock");
 		gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -185,7 +182,7 @@ public class RockPaperScisscors {
 			public void actionPerformed(ActionEvent e) {
 				player.setText("rock");
 				comp.setText(computerChoice());
-				equality(comp.getText(), player.getText(), lblText, lblResulC, lblResultP);
+				equality(comp.getText(), player.getText(), lblText, lblResultC, lblResultP);
 			}
 		});
 		pane.add(rock, gbc);
@@ -201,7 +198,7 @@ public class RockPaperScisscors {
 			public void actionPerformed(ActionEvent e) {
 				player.setText("paper");
 				comp.setText(computerChoice());
-				equality(comp.getText(), player.getText(), lblText, lblResulC, lblResultP);
+				equality(comp.getText(), player.getText(), lblText, lblResultC, lblResultP);
 			}
 		});
 		pane.add(paper, gbc);
@@ -217,7 +214,7 @@ public class RockPaperScisscors {
 			public void actionPerformed(ActionEvent e) {
 				player.setText("scisscors");
 				comp.setText(computerChoice());
-				equality(comp.getText(), player.getText(), lblText, lblResulC, lblResultP);
+				equality(comp.getText(), player.getText(), lblText, lblResultC, lblResultP);
 			}
 		});
 		pane.add(scisscors, gbc);
@@ -266,7 +263,7 @@ public class RockPaperScisscors {
 			public void actionPerformed(ActionEvent e) {
 				player.setText("");
 				comp.setText("");
-				lblResulC.setText("0");
+				lblResultC.setText("0");
 				lblResultP.setText("0");
 				lblText.setText("");
 			}
@@ -288,10 +285,10 @@ public class RockPaperScisscors {
 			public void actionPerformed(ActionEvent e) {
 				int answer = JOptionPane.showConfirmDialog(null, "Are you sure you want to quit the game?");
 				if (answer == 0) {
-					if (lblResulC.getText().isBlank() || lblResultP.getText().isBlank()
-							|| (lblResulC.getText().equals("0") && lblResultP.getText().equals("0")))
+					if (lblResultC.getText().isBlank() || lblResultP.getText().isBlank()
+							|| (lblResultC.getText().equals("0") && lblResultP.getText().equals("0")))
 						System.exit(0);
-					int result = Integer.parseInt(lblResulC.getText()) - Integer.parseInt(lblResultP.getText());
+					int result = Integer.parseInt(lblResultC.getText()) - Integer.parseInt(lblResultP.getText());
 					String str;
 					if (result > 0)
 						str = "You lose the game. Better luck next time!";
@@ -300,7 +297,7 @@ public class RockPaperScisscors {
 					else
 						str = "Tie!";
 					JOptionPane.showMessageDialog(null, "Result:\n" + "Player: " + lblResultP.getText() + "\nComputer: "
-							+ lblResulC.getText() + "\n" + str);
+							+ lblResultC.getText() + "\n" + str);
 					System.exit(0);
 				}
 			}
