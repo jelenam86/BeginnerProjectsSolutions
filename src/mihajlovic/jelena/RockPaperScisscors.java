@@ -36,13 +36,9 @@ public class RockPaperScisscors {
 	}
 
 	private static String scoreChange(JLabel lbl) {
-		if (lbl.getText().isBlank()) {
-			return "1";
-		} else {
-			int x = Integer.parseInt(lbl.getText());
-			x++;
-			return Integer.toString(x);
-		}
+		int x = Integer.parseInt(lbl.getText());
+		x++;
+		return Integer.toString(x);
 	}
 
 	private static void setScore(JLabel l1, JLabel l2) {
