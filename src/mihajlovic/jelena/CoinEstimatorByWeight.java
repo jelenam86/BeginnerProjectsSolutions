@@ -32,10 +32,6 @@ public class CoinEstimatorByWeight {
 
 	private static final double GRAM_POUNDS = 453.592;
 
-	private static double weightInGrams(double weightInPounds) {
-		return weightInPounds * GRAM_POUNDS;
-	}
-
 	// how many of each type can fit in wrapper
 	private static final int PENNY_DIME_WRAPPER = 50;
 	private static final int NICKEL_QUARTER_WRAPPER = 40;
@@ -44,6 +40,10 @@ public class CoinEstimatorByWeight {
 		prepareGUI();
 	}
 
+	private static double weightInGrams(double weightInPounds) {
+		return weightInPounds * GRAM_POUNDS;
+	}
+	
 	private static int numberOfPennies(double weightInGrams) {
 		return (int) Math.round(weightInGrams / PENNY);
 	}
@@ -292,7 +292,6 @@ public class CoinEstimatorByWeight {
 		mainFrame.add(totalValue);
 		mainFrame.getContentPane();
 		mainFrame.pack();
-		mainFrame.setResizable(false);
 		mainFrame.setLocationRelativeTo(null);
 		mainFrame.setVisible(true);
 	}
