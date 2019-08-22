@@ -5,16 +5,11 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class Main extends JFrame {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+public class Main {
 
 	public static void main(String[] args) {
 
-		Object[] options = { 1, 2, 3, 4, "EXIT" };
+		Object[] options = { 1, 2, 3, 4, "exit" };
 		int n = JOptionPane.showOptionDialog(null, "Select the number of dice to be drawn on screen:",
 				"Dice Rolling Simulator", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options,
 				options[0]);
