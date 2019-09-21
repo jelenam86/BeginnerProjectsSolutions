@@ -1,4 +1,4 @@
-package mihajlovic.jelena;
+package mihajlovic.jelena.multiplicationTable;
 
 import java.awt.EventQueue;
 
