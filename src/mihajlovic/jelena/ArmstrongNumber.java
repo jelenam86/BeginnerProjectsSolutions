@@ -28,10 +28,10 @@ public class ArmstrongNumber {
 		String result = "";
 		for (char c : number.toCharArray()) {
 			int n = Integer.parseInt(String.valueOf(c), base);
-			result = Integer.toString(sum + (int) Math.pow(n, number.length()), base).toUpperCase();
+			result = Integer.toString(sum + (int) Math.pow(n, number.length()), base);
 			sum = Integer.parseInt(result, base);
 		}
-		return result.equals(number);
+		return result.equalsIgnoreCase(number);
 	}
 
 	public static void main(String[] args) {
