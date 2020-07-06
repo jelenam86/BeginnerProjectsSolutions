@@ -3,9 +3,9 @@
 <br><b>Note:</b> Some solutions are in different repositories as Maven projects, but there is link to the solution in the [ReadMe](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/README.md) file.
 
 # Project list
-<br>1. Compare Recent reddit Karma [solution](https://github.com/jelenam86/reddit-user-info)
-<br>2. Watch for New TIL Facts [twitter4j solution](https://github.com/jelenam86/basic-twitter-bot)
-<br>3. Random Wikipedia Article [solution]
+<br>1. Compare Recent reddit Karma [solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/reddit_user_info)
+<br>2. Watch for New TIL Facts [twitter4j solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/basic_twitter_bot)
+<br>3. Random Wikipedia Article [solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/random_wiki)
 <br>4. What's the Weather? [solution]
 <br>5. Sierpinski Triangle [solution]
 <br>6. Two Numbers [solution]
