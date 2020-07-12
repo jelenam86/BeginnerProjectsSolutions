@@ -1,6 +1,6 @@
 # Java solutions for [beginner-projects](https://github.com/jorgegonzalez/beginner-projects)
 <br><b>Note</b>: work in progress...
-<br><b>Note:</b> Some solutions are in different repositories as Maven projects, but there is link to the solution in the [ReadMe](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/README.md) file.
+<br><b>Note:</b> Some solutions are in different repositories as Maven projects, but there is link to the solution in the <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/README.md">ReadMe</a> file.
 
 # Project list
 <ol>
@@ -16,30 +16,30 @@
 <li>Chess [solution]</li>
 <li>Seat reservation [solution]</li>
 <li>Palindrome [solution]</li>
-<li>What's the Weather? [solution](https://github.com/jelenam86/projects-with-APIs/tree/master/src/main/java/weather)</li>
-<li>Random Wikipedia Article [solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/random_wiki)</li>
-<li>Compare Recent reddit Karma [solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/reddit_user_info)</li>
-<li>Watch for New TIL Facts [twitter4j solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/basic_twitter_bot)</li>
-<li>A Variation of 21 [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/blackjack)</li>
-<li>Count and Fix Green Eggs and Ham [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/GreenEggsAndHam.java)</li>
-<li>What's My Number? [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/WhatsMyNumber.java)</li>
-<li>Factors of a Number [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FactorsOfANumber.java)</li>
-<li>Countdown Clock [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/CountdownClock.java)</li>
-<li>Turn Based Pokemon Style Game [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/TurnBasedPokemonStyleGame.java)</li>
-<li>Armstrong Number [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/ArmstrongNumber.java)</li>
-<li>Fibonacci Sequence [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FibonacciSequence.java)</li>
-<li>Base Jumper [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/BaseJumper.java)</li>
-<li>Hangman Game [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/hangmanGame)</li>
-<li>Menu Calculator [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/menuCalculator)</li>
-<li>Dice Rolling Simulator [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/diceRollingSimulator/DiceRollingSimulator.java), [bonus](https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/diceRollingSimulator/bonus)</li>
-<li>Change Calculator [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/ChangeCalculator.java)</li>
-<li>Mean, Median, and Mode [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/MeanMedianMode.java)</li>
-<li>Higher Lower Guessing Game [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/HigherLowerGuessingGame.java)</li>
-<li>Multiplication Table [standard output](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/multiplicationTable/MultiplicationTable.java), [draw table output](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/multiplicationTable/MultiplicationTable2.java), [JTable output](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/multiplicationTable/MultiplicationTable3.java)</li>
-<li>Magic 8 Ball [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/Magic8ball.java)</li>
-<li>Pythagorean Triples Checker [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/PythagoreanTriplesChecker.java)</li>
-<li>Rock Paper Scissors Game [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/RockPaperScisscors.java)</li>
-<li>Coin Estimator By Weight [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/CoinEstimatorByWeight.java)</li>
-<li>Mad Libs Story Maker [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/MadLibs.java)</li>
-<li>99 Bottles [solution](https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/Bottles99.java)</li>
+<li>What's the Weather? <a href="https://github.com/jelenam86/projects-with-APIs/tree/master/src/main/java/weather">[solution]</a></li>
+<li>Random Wikipedia Article <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/random_wiki">[solution]</a></li>
+<li>Compare Recent reddit Karma <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/reddit_user_info">[solution]</a></li>
+<li>Watch for New TIL Facts <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/basic_twitter_bot">[twitter4j solution]</a></li>
+<li>A Variation of 21 <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/blackjack">[solution]</a></li>
+<li>Count and Fix Green Eggs and Ham <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/GreenEggsAndHam.java">[solution]</a></li>
+<li>What's My Number? <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/WhatsMyNumber.java">[solution]</a></li>
+<li>Factors of a Number <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FactorsOfANumber.java">[solution]</a></li>
+<li>Countdown Clock <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/CountdownClock.java">[solution]</a></li>
+<li>Turn Based Pokemon Style Game <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/TurnBasedPokemonStyleGame.java">[solution]</a></li>
+<li>Armstrong Number <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/ArmstrongNumber.java">[solution]</a></li>
+<li>Fibonacci Sequence <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FibonacciSequence.java">[solution]</a></li>
+<li>Base Jumper <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/BaseJumper.java">[solution]</a></li>
+<li>Hangman Game <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/hangmanGame">[solution]</a></li>
+<li>Menu Calculator <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/menuCalculator">[solution]</a></li>
+<li>Dice Rolling Simulator <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/diceRollingSimulator/DiceRollingSimulator.java">[solution]</a>, <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/diceRollingSimulator/bonus">[bonus]</a></li>
+<li>Change Calculator <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/ChangeCalculator.java">[solution]</a></li>
+<li>Mean, Median, and Mode <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/MeanMedianMode.java">[solution]</a></li>
+<li>Higher Lower Guessing Game <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/HigherLowerGuessingGame.java">[solution]</a></li>
+<li>Multiplication Table <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/multiplicationTable/MultiplicationTable.java">[standard output]</a>, <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/multiplicationTable/MultiplicationTable2.java">[draw table output]</a>, <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/multiplicationTable/MultiplicationTable3.java">[JTable output]</a></li>
+<li>Magic 8 Ball <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/Magic8ball.java">[solution]</a></li>
+<li>Pythagorean Triples Checker <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/PythagoreanTriplesChecker.java">[solution]</a></li>
+<li>Rock Paper Scissors Game <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/RockPaperScisscors.java">[solution]</a></li>
+<li>Coin Estimator By Weight <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/CoinEstimatorByWeight.java">[solution]</a></li>
+<li>Mad Libs Story Maker <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/MadLibs.java">[solution]</a></li>
+<li>99 Bottles <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/Bottles99.java">[solution]</a></li>
 </ol>
