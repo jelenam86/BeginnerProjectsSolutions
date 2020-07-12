@@ -6,7 +6,7 @@
 <br>1. Compare Recent reddit Karma [solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/reddit_user_info)
 <br>2. Watch for New TIL Facts [twitter4j solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/basic_twitter_bot)
 <br>3. Random Wikipedia Article [solution](https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/random_wiki)
-<br>4. What's the Weather? [solution]
+<br>4. What's the Weather? [solution](https://github.com/jelenam86/projects-with-APIs/tree/master/src/main/java/weather)
 <br>5. Sierpinski Triangle [solution]
 <br>6. Two Numbers [solution]
 <br>7. Chickens and Rabbits [solution]
