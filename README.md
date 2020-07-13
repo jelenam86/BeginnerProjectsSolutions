@@ -4,7 +4,6 @@
 
 # Project list
 <ol>
-<li>Sierpinski Triangle [solution]</li>
 <li>Two Numbers [solution]</li>
 <li>Chickens and Rabbits [solution]</li>
 <li>FLAMES Game [solution]</li>
@@ -22,6 +21,7 @@
 <li>Watch for New TIL Facts <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/basic_twitter_bot">[twitter4j solution]</a></li>
 <li>A Variation of 21 <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/blackjack">[solution]</a></li>
 <li>Count and Fix Green Eggs and Ham <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/GreenEggsAndHam.java">[solution]</a></li>
+<li>Sierpinski Triangle <a href="https://github.com/jelenam86/solutions-beginner-projects/blob/master/src/mihajlovic/jelena/SierpinskiTriangle.java">[solution]</a></li>
 <li>What's My Number? <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/WhatsMyNumber.java">[solution]</a></li>
 <li>Factors of a Number <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FactorsOfANumber.java">[solution]</a></li>
 <li>Countdown Clock <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/CountdownClock.java">[solution]</a></li>
