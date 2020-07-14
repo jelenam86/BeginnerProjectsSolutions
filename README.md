@@ -1,11 +1,9 @@
 # Java solutions for [beginner-projects](https://github.com/jorgegonzalez/beginner-projects)
 <br><b>Note</b>: work in progress...
-<br><b>Note:</b> Some solutions are in different repositories as Maven projects, but there is link to the solution in the <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/README.md">ReadMe</a> file.
+<br><b>Note:</b> Some solutions are in different repositories as Maven projects, but there is link to the solution in the <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/README.md">ReadMe</a> file. Also, if you want to run tests, configure buid path to support JUnit.
 
 # Project list
 <ol>
-<li>Two Numbers [solution]</li>
-<li>Chickens and Rabbits [solution]</li>
 <li>FLAMES Game [solution]</li>
 <li>Pomodoro Timer [solution]</li>
 <li>Scarne's Dice [solution]</li>
@@ -17,6 +15,8 @@
 <li>Palindrome [solution]</li>
 <li>What's the Weather? <a href="https://github.com/jelenam86/projects-with-APIs/tree/master/src/main/java/weather">[solution]</a></li>
 <li>Random Wikipedia Article <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/random_wiki">[solution]</a></li>
+<li>Two Numbers <a href="https://github.com/jelenam86/solutions-beginner-projects/blob/master/src/mihajlovic/jelena/TwoNumbers.java">[solution]</a></li>
+<li>Chickens and Rabbits <a href="https://github.com/jelenam86/solutions-beginner-projects/blob/master/src/mihajlovic/jelena/ChickensAndRabbits.java">[solution]</a></li>
 <li>Compare Recent reddit Karma <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/reddit_user_info">[solution]</a></li>
 <li>Watch for New TIL Facts <a href="https://github.com/jelenam86/tasks-with-json/tree/master/src/main/java/basic_twitter_bot">[twitter4j solution]</a></li>
 <li>A Variation of 21 <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/tree/master/src/mihajlovic/jelena/blackjack">[solution]</a></li>
