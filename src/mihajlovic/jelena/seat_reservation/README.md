@@ -1,4 +1,4 @@
-##Seat Reservation
+## Seat Reservation
 
 If you've ever been in a concert, you are aware that you buy tickets to be able to reserve a seat inside a stadium. The seat you will be on will have a specific number or code that would enable you to know exactly how far or how close you are to the stage.
 
