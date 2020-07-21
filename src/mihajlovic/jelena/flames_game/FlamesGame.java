@@ -57,6 +57,10 @@ public class FlamesGame {
     }
 
     public void play() {
+	if(firstPersonName.equalsIgnoreCase(secondPersonName) || firstPersonName == null || secondPersonName == null) {
+	    System.out.println("Invalid data entered.");
+	    return;
+	}
 	String result = Flames.valueOf(getFlame()).toString();
 	System.out.println("Result for " + firstPersonName + " and " + secondPersonName + " is: " + result);
     }
