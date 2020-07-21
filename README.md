@@ -4,7 +4,6 @@
 
 # Project list
 <ol>
-<li>FLAMES Game [solution]</li>
 <li>Pomodoro Timer [solution]</li>
 <li>Scarne's Dice [solution]</li>
 <li>GoogleCase [solution]</li>
@@ -25,6 +24,7 @@
 <li>Factors of a Number <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FactorsOfANumber.java">[solution]</a></li>
 <li>Countdown Clock <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/CountdownClock.java">[solution]</a></li>
 <li>Turn Based Pokemon Style Game <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/TurnBasedPokemonStyleGame.java">[solution]</a></li>
+<li>FLAMES Game <a href="https://github.com/jelenam86/solutions-beginner-projects/tree/master/src/mihajlovic/jelena/flames_game">[solution]</a></li>
 <li>Palindrome <a href="https://github.com/jelenam86/solutions-beginner-projects/blob/master/src/mihajlovic/jelena/Palindrome.java">[solution]</a></li>
 <li>Armstrong Number <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/ArmstrongNumber.java">[solution]</a></li>
 <li>Fibonacci Sequence <a href="https://github.com/jelenam86/SolutionsBeginnerProjects/blob/master/src/mihajlovic/jelena/FibonacciSequence.java">[solution]</a></li>
